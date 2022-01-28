@@ -12,7 +12,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 10px !important;
 }
 
 .socialIconStyle a{
@@ -206,7 +206,7 @@
     color: var(--optional-color);
   }
   @media only screen and (max-width: 767px) {
-    .singleFooterWidget.ps-5 {
+    .singleFooterWidget {
       padding-left: 0 !important;
     }
     .singleFooterWidget h3 {
@@ -234,7 +234,7 @@
     }
   }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .singleFooterWidget.ps-5 {
+    .singleFooterWidget {
       padding-left: 0 !important;
     }
     .singleFooterWidget h3 {
