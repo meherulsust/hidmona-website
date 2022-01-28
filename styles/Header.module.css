@@ -1,0 +1,54 @@
+.topBarArea{
+    background-color: #2a3f65;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.topBarInformation {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.topBarInformation li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.topBarInformation li a{
+    color: #ffffff;
+}
+
+.topBarInformation li a:hover{
+    text-decoration: none;
+}
+
+.topBarAction {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: end;
+}
+
+.topBarAction li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.topBarAction li a{
+    color: #ffffff;
+}
+
+.topBarAction li button{
+    background-color: #2a3f65;
+    border: none;
+    color: #ffffff;
+}
+
+.topBarAction li button span{
+    margin-left: 10px;
+}

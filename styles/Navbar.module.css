@@ -1,0 +1,89 @@
+.navbarArea{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainNavbar{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbarLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbarLinks ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarLinks li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 25px;
+}
+
+.navbarLinks li a{
+    color: black;
+}
+
+.navbarLinks li a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+
+.navbarButtonArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginButtonDiv{
+    border: 1px solid #004A90;
+    font-family: Roboto, sans-serif;
+    padding: 15px;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+.loginButtonDiv:hover{
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.loginButton:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.signUpButtonDiv{
+    border: none;
+    background-color: orangered;
+    font-family: Roboto, sans-serif;
+    padding: 15px;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.signUpButtonDiv:hover{
+    background-color: #004A90;
+}
+
+.signUpButton{
+    color: #ffffff;
+}
+
+.signUpButton:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
