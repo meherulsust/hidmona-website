@@ -1,6 +1,6 @@
 import styles from '../../styles/Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe, faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 const Header = () => {
     const {topBarArea, topBarInformation, topBarAction} = styles;
@@ -29,7 +29,7 @@ const Header = () => {
                                 <button className="dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                     <FontAwesomeIcon icon={faGlobe} />
-                                    <span className="lang-name">English <FontAwesomeIcon icon={faAngleDown} /></span>
+                                    <span className="lang-name">English</span>
                                 </button>
                                 <div className="dropdown-menu language-dropdown-menu">
                                     <a className="dropdown-item" href="#">
