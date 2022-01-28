@@ -33,15 +33,15 @@ const Header = () => {
                                 </button>
                                 <div className="dropdown-menu language-dropdown-menu">
                                     <a className="dropdown-item" href="#">
-                                        <Image src='/public/images/uk.png' alt='' width={10} height={10}/>
+                                        <Image src='/assets/images/uk.png' alt='' width={10} height={10}/>
                                         English
                                     </a>
                                     <a className="dropdown-item" href="#">
-                                        <Image src='/public/images/china.png' alt='' width={10} height={10}/>
+                                        <Image src='/assets/images/china.png' alt='' width={10} height={10}/>
                                         简体中文
                                     </a>
                                     <a className="dropdown-item" href="#">
-                                        <Image src='/public/images/uae.png' alt='' width={10} height={10}/>
+                                        <Image src='/assets/images/uae.png' alt='' width={10} height={10}/>
                                         العربيّة
                                     </a>
                                 </div>

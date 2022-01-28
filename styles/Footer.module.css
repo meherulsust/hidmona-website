@@ -1,0 +1,250 @@
+.footerArea {
+    background-color: #fafafb;
+    padding-top: 100px;
+  }
+
+  .socialIconStyle{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.socialIconStyle a{
+    color: #E94F07;
+}
+
+.socialIconStyle:hover{
+    background-color: #E94F07;
+    color: #ffffff;
+}
+
+.socialIconStyle a:hover{
+    color: #ffffff;
+}
+
+  .singleFooterWidget {
+    margin-bottom: 25px;
+  }
+  .singleFooterWidget .widgetLogo {
+    margin-bottom: 25px;
+  }
+  .singleFooterWidget p {
+    margin-bottom: 0;
+  }
+  .singleFooterWidget .newsletterForm{
+    margin-top: 20px;
+    position: relative;
+  }
+  .singleFooterWidget .newsletterForm.inputNewsletter {
+    display: block;
+    width: 100%;
+    background-color: var(--white-color);
+    border: 1px solid #e5e5e5;
+    height: 60px;
+    padding: 15px 130px 15px 15px;
+    border-radius: 5px;
+    outline: 0;
+    color: var(--paragraph-color);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .singleFooterWidget .newsletterForm.inputNewsletter:focus {
+    border: 1px solid var(--main-color);
+  }
+  .singleFooterWidget
+    .newsletter-form
+    .inputNewsletter:focus::-webkit-input-placeholder {
+    color: transparent;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .singleFooterWidget
+    .newsletter-form
+    .inputNewsletter:focus:-ms-input-placeholder {
+    color: transparent;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .singleFooterWidget
+    .newsletter-form
+    .inputNewsletter:focus::-ms-input-placeholder {
+    color: transparent;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .singleFooterWidget .newsletterForm.inputNewsletter:focus::placeholder {
+    color: transparent;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .singleFooterWidget .newsletterFormbutton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    padding: 18px 20px;
+  }
+  .singleFooterWidget .newsletterForm#validator-newsletter {
+    color: red;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+  }
+  .singleFooterWidget .widgetSocial {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .singleFooterWidget .widgetSocial li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+  }
+  .singleFooterWidget .widgetSocial li:last-child {
+    margin-right: 0;
+  }
+  .singleFooterWidget .widgetSocial li a i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: var(--white-color);
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    text-align: center;
+    font-size: var(--font-size);
+    color: var(--main-color);
+    border-radius: 50px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .singleFooterWidget .widgetSocial li a i:hover {
+    color: var(--white-color);
+    background-color: var(--main-color);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  .singleFooterWidget h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
+  }
+  .singleFooterWidget h3::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background-color: var(--main-color);
+    width: 50px;
+    height: 2px;
+  }
+  .singleFooterWidget .quickLinks {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .singleFooterWidget .quickLinks li {
+    margin-bottom: 18px;
+    list-style-type: none;
+  }
+  .singleFooterWidget .quickLinks li:last-child {
+    margin-bottom: 0;
+  }
+  .singleFooterWidget .quickLinks li a {
+    color: var(--paragraph-color);
+  }
+  .singleFooterWidget .quickLinks li a:hover {
+    color: var(--main-color);
+  }
+  .singleFooterWidget .infoLinks {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .singleFooterWidget .infoLinks li {
+    margin-bottom: 18px;
+    list-style-type: none;
+    color: var(--paragraph-color);
+  }
+  .singleFooterWidget .infoLinks li:first-child {
+    line-height: 30px;
+  }
+  .singleFooterWidget .infoLinks li:last-child {
+    margin-bottom: 0;
+  }
+  .singleFooterWidget .infoLinks li span {
+    font-weight: 500;
+  }
+  .singleFooterWidget .infoLinks li a {
+    color: var(--paragraph-color);
+  }
+  .singleFooterWidget .infoLinks li a:hover {
+    color: var(--main-color);
+  }
+  .copyrightArea {
+    margin-top: 75px;
+    padding-bottom: 35px;
+    border-top: 1px solid rgba(205, 214, 224, 0.3);
+    padding-top: 30px;
+  }
+  .copyrightArea .copyrightAreaContent {
+    text-align: center;
+  }
+  .copyrightArea .copyrightAreaContent p a {
+    display: inline-block;
+    font-weight: 500;
+    color: var(--main-color);
+  }
+  .copyrightArea .copyrightAreaContent p a:hover {
+    color: var(--optional-color);
+  }
+  @media only screen and (max-width: 767px) {
+    .singleFooterWidget.ps-5 {
+      padding-left: 0 !important;
+    }
+    .singleFooterWidget h3 {
+      font-size: 18px;
+    }
+    .singleFooterWidget .quickLinks li {
+      font-size: 14px;
+    }
+    .singleFooterWidget .infoLinks li {
+      font-size: 14px;
+    }
+    .copyrightArea {
+      margin-top: 25px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .singleFooterWidget {
+      padding-left: 0 !important;
+    }
+    .singleFooterWidget h3 {
+      font-size: 18px;
+    }
+    .copyrightArea {
+      margin-top: 25px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .singleFooterWidget.ps-5 {
+      padding-left: 0 !important;
+    }
+    .singleFooterWidget h3 {
+      font-size: 18px;
+    }
+    .singleFooterWidget .newsletterForm.inputNewsletter {
+      padding: 15px 95px 15px 15px;
+    }
+    .singleFooterWidget .newsletterFormbutton {
+      padding: 18px 10px;
+    }
+  }
+  
