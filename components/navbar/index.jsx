@@ -1,51 +1,55 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div className="main-navbar">
+    <div className={styles.navbarArea}>
       <div className="container-fluid">
         <nav className="navbar navbar-expand-md navbar-light">
-          <a className="navbar-brand" href="index.html">
-            <Image
-              src="/assets/images/logo.png"
-              alt="logo"
-              width={300}
-              height={100}
-            />
-          </a>
+          <Link href={"/"}>
+            <a className="navbar-brand">
+              <Image
+                src="/assets/images/logo.png"
+                alt="logo"
+                width={300}
+                height={100}
+              />
+            </a>
+          </Link>
           <div
             className="collapse navbar-collapse mean-menu"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  {" "}
-                  Home
-                </a>
+              <li className={styles.navItem}>
+                <Link href={"/"}>
+                  <a className={styles.navLink}> Home</a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  About Us
-                </a>
+              <li className={styles.navItem}>
+                <Link href={"/how-it-works"}>
+                  <a className={styles.navLink}>How It Works</a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  Contact
-                </a>
+              <li className={styles.navItem}>
+                <Link href={"/contact"}>
+                  <a className={styles.navLink}>Contact</a>
+                </Link>
               </li>
             </ul>
-            <div className="others-options d-flex align-items-center">
-              <div className="option-item">
-                <a href="login.html" className="optional-btn">
-                  Log In
-                </a>
+            <div className={styles.navbarButtonArea}>
+              <div className={styles.loginButtonDiv}>
+                <Link href={"/login"}>
+                  <a href="login.html" className={styles.loginButton}>
+                    Log In
+                  </a>
+                </Link>
               </div>
-              <div className="option-item">
-                <a href="register.html" className="default-btn">
-                  signUp Now
-                </a>
+              <div className={styles.signUpButtonDiv}>
+                <Link href={"/register"}>
+                  <a className={styles.signUpButton}>SignUp Now</a>
+                </Link>
               </div>
             </div>
           </div>
