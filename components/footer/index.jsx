@@ -32,23 +32,23 @@ const Footer = () => {
                   <p>To get exclusive updates and benefits.</p>
                   <ul className={styles.widgetSocial}>
                     <li>
-                      <a href="https://www.facebook.com/EnvyTheme" className={styles.socialIconStyle} target="_blank"
+                      <a href="#" className={styles.socialIconStyle} target="_blank"
                       >
                         <FontAwesomeIcon icon={faFacebookF} />
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/?lang=en" className={styles.socialIconStyle} target="_blank">
+                      <a href="#" className={styles.socialIconStyle} target="_blank">
                         <FontAwesomeIcon icon={faTwitter} />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/" className={styles.socialIconStyle} target="_blank">
+                      <a href="#" className={styles.socialIconStyle} target="_blank">
                         <FontAwesomeIcon icon={faInstagram} />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/signup" className={styles.socialIconStyle} target="_blank">
+                      <a href="#" className={styles.socialIconStyle} target="_blank">
                         <FontAwesomeIcon icon={faLinkedinIn} />
                       </a>
                     </li>
